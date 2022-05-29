@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="116.0" prefWidth="700.0" style="-fx-background-color: #0589ff;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="239.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign Up - Form">
+               <font>
+                  <Font name="Arial Bold" size="31.0" />
+               </font>
+            </Text>
+            <Button graphicTextGap="14.0" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" style="-fx-background-color: ffffff;" text="Back" />
+            <Button layoutX="615.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" style="-fx-background-color: FFFFFF;" text="X" />
+         </children>
+      </AnchorPane>
+   </top>
+   <left>
+      <AnchorPane prefHeight="384.0" prefWidth="350.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField layoutX="106.0" layoutY="50.0" promptText="User Name" />
+            <TextField layoutX="106.0" layoutY="104.0" promptText="Email Address" />
+            <CheckBox layoutX="106.0" layoutY="259.0" mnemonicParsing="false" text="Student" />
+            <Button layoutX="106.0" layoutY="303.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="98.0" style="-fx-background-color: #0589ff;" text="Register" textFill="WHITE" />
+            <Text fill="#434343" layoutX="106.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Name" />
+            <Text fill="#434343" layoutX="106.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email Address" />
+            <Text fill="#434343" layoutX="106.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone Number" />
+            <PasswordField layoutX="106.0" layoutY="213.0" promptText="Password" />
+            <Text fill="#434343" layoutX="106.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+            <TextField layoutX="106.0" layoutY="160.0" promptText="Phone Number" />
+            <CheckBox layoutX="187.0" layoutY="259.0" mnemonicParsing="false" text="Faculty Council" />
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="384.0" prefWidth="440.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="268.0" fitWidth="341.0" layoutX="-7.0" layoutY="35.0">
+               <image>
+                  <Image url="@../logo2.jpg.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
